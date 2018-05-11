@@ -11,7 +11,7 @@
   "zeplin": {
     "displayName": "Xml Android",
     "projectTypes": [
-      "android"
+      "web","android"
     ],
     "options": [
     ]
