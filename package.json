@@ -1,0 +1,28 @@
+{
+  "name": "xamarin_ios",
+  "version": "0.1.0",
+  "description": "Sample extension description.",
+  "scripts": {
+    "start": "zem start",
+    "build": "zem build",
+    "clean": "zem clean",
+    "exec": "zem exec"
+  },
+  "zeplin": {
+    "displayName": "Xml Android",
+    "projectTypes": [
+      "android"
+    ],
+    "options": [
+    ]
+  },
+  "devDependencies": {
+    "mustache-loader": "^1.4.0",
+    "zem": "^0.1.2"
+  },
+  "dependencies": {
+    "indent-string": "^3.2.0",
+    "lodash": "^4.17.10",
+    "mustache": "^2.3.0"
+  }
+}

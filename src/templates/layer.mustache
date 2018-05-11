@@ -1,0 +1,18 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    {{#fills}}
+        {{#fill}}<solid android:color="{{fill}}"/>{{/fill}}
+        {{#fillRadient}}
+        <gradient
+        android:type="{{type}}"
+        android:angle="{{angle}}"
+        android:startColor="{{colorStart}}"
+        android:endColor="{{colorStop}}" />
+        {{/fillRadient}}
+    {{/fills}}
+    {{#borders}}
+        <stroke {{#thickness}}android:width="{{thickness}}" {{/thickness}}
+            {{#fill.fill}}color="{{fill.fill}}"{{/fill.fill}} />
+    {{/borders}}
+    {{#borderRadius}}<corners android:radius="{{borderRadius}}" />{{/borderRadius}}
+</shape>
+

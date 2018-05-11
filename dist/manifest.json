@@ -1,0 +1,8 @@
+{
+  "name": "Xml Android",
+  "description": "Sample extension description.",
+  "version": "0.1.0",
+  "options": [],
+  "moduleURL": "./main.f234573b.js",
+  "readmeURL": "./README.md"
+}
