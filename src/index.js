@@ -110,7 +110,7 @@ function comment(context, text) {
 function XmlCode(code) {
     return {
       code,
-      language: 'swift',
+      language: 'xml',
     };
   }
 
